@@ -110,6 +110,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "yourwaycoffee:build:production",
+            "firebaseProject": "your-way-coffee",
+            "firebaseHostingSite": "your-way-coffee"
+          }
         }
       }
     }

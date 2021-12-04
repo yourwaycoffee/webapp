@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "your-way-coffee": {
+      "hosting": {
+        "yourwaycoffee": [
+          "your-way-coffee"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "your-way-coffee"
+  }
+}
